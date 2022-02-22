@@ -1,0 +1,10 @@
+﻿namespace GeometryFormula.Generation.SourceGenerator.Formulas
+{
+	public class ##SHAPEAREA##
+	{
+		##PRIVATEVARAIBLES##
+		public ##CONSTRUCTOR##
+
+		public double Area => ##AREAFORMULA##
+	}
+}

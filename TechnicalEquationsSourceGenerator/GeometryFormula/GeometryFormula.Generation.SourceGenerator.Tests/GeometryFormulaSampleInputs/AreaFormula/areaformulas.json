@@ -1,0 +1,37 @@
+{
+	"Reactangle": {
+		"formula": "a * b",
+		"inputs": [
+			"a",
+			"b"
+		]
+	},
+	"Square": {
+		"formula": "a * a",
+		"inputs": [
+			"a"
+		]
+	},
+	"Parallelogram": {
+		"formula" : "a * h",
+		"inputs": [
+			"a",
+			"h"
+		] 
+	},
+	"Trapezoid": {
+		"formula": "((a + b) / 2.0) * h",
+		"inputs": [
+			"a",
+			"b",
+			"h"
+		]
+	},
+	"Triangle": {
+		"formula": "(b * h) / 2.0",
+		"inputs": [
+			"b",
+			"h"
+		]
+	}
+}

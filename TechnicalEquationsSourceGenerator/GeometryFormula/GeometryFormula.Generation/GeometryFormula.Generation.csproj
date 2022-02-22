@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Remove="areaformulas.json" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<EmbeddedResource Include="areaformulas.json" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\GeometryFormula.Generation.SourceGenerator\GeometryFormula.Generation.SourceGenerator.csproj" OutputItemType="Analyzer" />
+		<CompilerVisibleItemMetadata Include="AdditionalFiles" MetadataName="sourceGenerationSettings" />
+		<AdditionalFiles Include="areaformulas.json" sourceGenerationSettings="true">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</AdditionalFiles>
+	</ItemGroup>
+
+</Project>
