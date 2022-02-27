@@ -1,1 +1,2 @@
 # SourceGeneratorDemo-Part2
+This repository is a reference to the medium article published. You can read the published article in the following link. https://medium.com/@saravananganesan/exploring-c-source-generators-part-2-9d2d63d8f1e4
